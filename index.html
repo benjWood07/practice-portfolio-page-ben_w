@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile - Portfolio</title>
+</head>
+<body>
+    <header id="main-header">
+        <h1>Ben Woods</h1>
+        <p class="tagline">Full Stack Developer: In Training</p>
+    </header>
+
+    <section id="about-section">
+        <div class="profile-container">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>Hello! I'm Ben, and this is my profile page. I'm hoping to transition from a Data Analyst role to a Full Stack Developer. I just got married on June 13th, 2025. Outside of work, my wife and I like to get as far off the grid as possible and escape the tech world. I like to search out new music, play the guitar, and I'm learning to play the piano.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills-section">
+        <h2>My Skills</h2>
+        <ul class="skills-list">
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>Java *coming soon*</li>
+            <li>Problem Solving</li>
+        </ul>
+    </section>
+
+    <fieldset>
+        <legend>Visitor Contact Form</legend>
+    
+        <div class="form-group">
+            <label for="fullName">Full Name *</label>
+            <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required minlength="2"
+                maxlength="50">
+        </div>
+    
+        <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+        </div>
+        
+        <div class="form-group">
+            <label for="comments">Comments *</label>
+            <textarea 
+                id="comments" 
+                name="comments" 
+                placeholder="Please provide your detailed feedback here..."
+                required
+                minlength="10"
+                maxlength="500"
+                rows="5"
+            ></textarea>
+        </div>
+    </fieldset>
+
+    <footer id="main-footer">
+        <p>&copy; 2025 Ben Woods. All rights reserved.</p>
+        <p><a href="https://github.com/benjWood07" target="_blank">Visit my GitHub</a></p>
+    </footer>
+</body>
+</html>
